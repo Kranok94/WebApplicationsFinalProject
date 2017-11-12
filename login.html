@@ -1,0 +1,47 @@
+<!Gadget XChange - Web Application>
+<!Login Page>
+<html>
+<head>
+	<title>Gadget XChange Login Page</title>
+	<meta charset="UTF-8"/>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+<body>
+	<div class="LOGOS">
+		<img id="logoGadgetXChange" src="images/logoGadgetXChangeCropped.png" alt="Logo_GadgetXChange" title="Logo_GadgetXChange"/>
+		<img id="logoSAISD" src="images/logoSAISDCropped.png" alt="Logo_SAISD" title="Logo_SAISD"/>
+		<div><h1 id="login">LOGIN</h1></div>
+	</div>
+
+	<div class="loginCredentials">
+		<div id="leftBarFromFieldset"></div>
+		<div id="loginCredentialsBox">
+			<p><strong>Username</strong></br>
+				<input id="username" type="text"/>
+				<span class="spanBanner" id="userSpan"></span>
+			</p>
+					
+			<p><strong>Password</strong></br>
+				<input id="passw" type="password"/>
+				<span class="spanBanner" id="passwSpan"></span><br><br>
+				<span id="remember">
+					<input type="checkbox" id="rememberMe" name="rememberMe" value="1"/>
+					Remember Me</br>
+				</span>
+			</p>		
+			<p>
+			<input id="submitLogin" type="submit" value="Login"/>
+			</p>
+		</div>
+	</div>
+
+	<div id="createSpaceLogin"></div>
+	<input id="homeButtonLogin" type="submit" value="Home"/>
+	<div class="lowerBar"></div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/generalButtonsJQuery.js"></script>
+	<script type="text/javascript" src="js/loginJQuery.js"></script>
+</body>
+</html>

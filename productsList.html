@@ -1,0 +1,57 @@
+<!Gadget XChange - Web Application>
+<!Products List Page>
+<html>
+<head>
+	<title>Gadget XChange Products List Page</title>
+	<meta charset="UTF-8"/>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+<body>
+	<div class="LOGOS">
+		<img id="logoGadgetXChange" src="images/logoGadgetXChangeCropped.png" alt="Logo_GadgetXChange" title="Logo_GadgetXChange"/>
+		<img id="logoSAISD" src="images/logoSAISDCropped.png" alt="Logo_SAISD" title="Logo_SAISD"/>
+		<div>
+			<h1 id="prodList">PRODUCTS LIST</h1>
+		</div>
+	</div>
+
+    <div class="optionsProductsList">
+        <div id="leftBarFromOptions"></div>
+        <div id="optionsBox">
+            <p><strong><i>Search Product</i></strong></br>
+                <input id="searchProductName" type="text"/>
+                <span class="spanBanner" id="searchProductNameSpan"></span>
+            </p>
+                            
+            <div><input id="searchProductSubmit" class="input" type="submit" value="Search Product"/>
+            </div>
+        </div>
+    </div>
+
+
+	<div class="productsListingTable">
+		<fieldset>
+            <div id="tableContainer">
+                <table id="productsTable">
+                    <tr>
+                        <th>Product's Name</th>
+                        <th>Price</th>
+                        <th>Product Code</th>
+                    </tr>
+                </table>
+            </div>
+        </fieldset>
+	</div>
+
+	<div id="createSpaceProductList"></div>
+	<span class="productListHome">
+		<input id="backButton" type="submit" value="Back"/>
+		<div class="lowerBar"></div>
+	</span>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/generalButtonsJQuery.js"></script>
+    <script type="text/javascript" src="js/productsListJQuery.js"></script>
+</body>
+</html>

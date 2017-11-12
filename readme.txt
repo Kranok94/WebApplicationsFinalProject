@@ -1,0 +1,1 @@
+- The Home button will redirect to the Administrator Page or Staff Page depending on the credentials.

@@ -1,0 +1,58 @@
+<!Gadget XChange - Web Application>
+<!Sell Products Page>
+<html>
+<head>
+	<title>Gadget XChange Sell Products Page</title>
+	<meta charset="UTF-8"/>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+<body>
+	<div class="LOGOS">
+		<img id="logoGadgetXChange" src="images/logoGadgetXChangeCropped.png" alt="Logo_GadgetXChange" title="Logo_GadgetXChange"/>
+		<img id="logoSAISD" src="images/logoSAISDCropped.png" alt="Logo_SAISD" title="Logo_SAISD"/>
+		<div>
+			<h1 id="sellProd">SELL PRODUCT</h1>
+		</div>
+	</div>
+
+	<div class="optionsSellProducts">
+		<div id="leftBarFromOptions"></div>
+		<div id="optionsBox">
+			<p><strong><i>Search Product</i></strong></br>
+				<input id="sellProductName" type="text"/>
+				<span class="spanBanner" id="sellProductNameSpan"></span>
+			</p>
+							
+			<div><input id="searchSellProductSubmit" class="input" type="submit" value="Search Product"/>
+			</div>
+		</div>
+	</div>
+
+	<div class="productsListingTableSell">
+		<fieldset>
+            <div id="tableContainerSell">
+                <table id="productsTableSell">
+                    <tr>
+                        <th>Product's Name</th>
+                        <th>Price</th>
+                        <th>Product Code</th>
+                        <th>Sell</th>
+                    </tr>
+                </table>
+            </div>
+        </fieldset>
+	</div>
+	</div>
+
+	<div id="createSpaceSellProducts"></div>
+	<span class="sellProductsHome">
+		<input id="backButton" type="submit" value="Back"/>
+		<div class="lowerBar"></div>
+	</span>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/generalButtonsJQuery.js"></script>
+	<script type="text/javascript" src="js/sellProductJQuery.js"></script>
+</body>
+</html>
