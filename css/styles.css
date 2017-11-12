@@ -1,0 +1,752 @@
+body{
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	color:#000000;		
+	margin:0;
+	padding:0;
+	}
+
+/*------Styles for Index.html-----*/
+	.SAISD_LOGO > div{
+		background: #C00000;
+		border-top: 30px solid #C00000;
+		border-bottom: 42px solid #C00000;
+		border-left: 17px solid #C00000;
+		border-right: 17px solid #C00000;
+		margin: 5px 174px 0px 5px;
+		padding:0px 0px;
+		/*display: block;
+		position: relative;*/
+	}
+
+	.SAISD_LOGO > img{
+		float: right;
+		width: 162px;
+		height: 72px;
+		background: #C00000;
+		margin: 1px 5px 0px 5px;
+	}
+
+	.GadgetXChange_LOGO > #upperBorder{
+		border-top: 30px solid #FFF;
+		border-bottom: 20px solid #FFF;
+		border-left: 17px solid #FFF;
+		border-right: 17px solid #FFF;
+	}
+
+	.GadgetXChange_LOGO > #lowerBorder{
+		border-top: 25px solid #FFF;
+		border-bottom: 30px solid #FFF;
+		border-left: 17px solid #FFF;
+		border-right: 17px solid #FFF;
+	}
+
+	.GadgetXChange_LOGO > img{
+		float: center;
+		width:  627px;
+		height: 343px;
+		margin-left: auto;
+	    margin-right: auto;
+		display: block;
+	}
+
+	.lowerButtons > div{
+		background: #C00000;
+		border-top: 20px solid #C00000;
+		border-bottom: 20px solid #C00000;
+		border-left: 17px solid #C00000;
+		border-right: 17px solid #C00000;
+		margin: 5px 5px 5px 5px;
+		text-align: center;
+	}
+
+	.lowerButtons > div > input[type=submit]{
+		font-size: 1.5em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 15px 40px;
+		border-radius: 5px;		/*Give the button a round shape*/
+	}
+
+	.lowerButtons > div > input[type=submit]:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+
+	.SAISD_LOGO > input[type=submit]{
+		float: left;
+		font-size: 1.5em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 15px 40px;
+	    margin: 7px 0px 0px 20px;
+		border-radius: 5px;		
+	}
+
+	.SAISD_LOGO > input[type=submit]:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+/*--------------------------------*/
+
+
+/*------Styles for Page Background-----*/
+	.LOGOS > div{
+		background: #C00000;
+		border-top: 5px solid #C00000;
+		border-bottom: 6px solid #C00000;
+		border-left: 17px solid #C00000;
+		border-right: 17px solid #C00000;
+		margin: 5px 174px 0px 142px;
+		padding:0px 0px;
+		display: block;
+		position: relative;
+	}
+
+	.LOGOS > div > h1{
+		font-style: italic;
+		font-size: 24px;
+		text-align: center;
+		color: #FFF;
+	}
+
+	.LOGOS > #logoSAISD{
+		float: right;
+		width: 162px;
+		height: 72px;
+		margin: 0px 10px 0px 5px;
+		background: #C00000;
+	}
+
+	.LOGOS > #logoGadgetXChange{
+		float: left;
+		width:  133px; 
+		height: 72px; 
+		margin-left: auto;
+	    margin-right: auto;
+	    margin: 0px 5px 0px 5px;
+		display: block;
+	}
+
+	.lowerBar{
+		background: #C00000;
+		border-top: 77px solid #C00000;
+		border-bottom: 20px solid #C00000;
+		border-left: 17px solid #C00000;
+		border-right: 17px solid #C00000;
+		margin: 5px 5px 5px 5px;
+		text-align: center;
+	}
+
+	#backButton{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-top: 55px;
+	}
+
+	#backButton:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+/*-------------------------------------*/
+
+
+/*------Styles for Login.html-----*/
+	.loginCredentials{
+		overflow: hidden;
+	}
+
+	.loginCredentials > div{
+		width: 33%;
+	}
+
+	.loginCredentials > #loginCredentialsBox{
+		float: left;
+		margin: 80px 5px 5px 5px;
+	}
+	
+	.loginCredentials > #leftBarFromFieldset{
+		background: #333;
+		border-top: 100px solid #FFF;
+		border-bottom: 100px solid #FFF;
+		border-left: 20px solid #FFF;
+		border-right: 20px solid #FFF;
+		margin: 50px 5px 5px 5px;
+		float:left;
+	}
+	
+	#submitLogin{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+	}
+
+	#submitLogin:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+
+	#username, #passw{
+		border: 2px solid #111;
+		border-radius: 3px;
+	}
+
+	#remember{
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	#createSpaceLogin{
+		margin: 58px 5px 5px 0px;
+	}
+
+	#homeButtonLogin{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-top: 55px;
+	}
+
+	#homeButtonLogin:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+
+	.spanBanner{
+		font-size: 0.85em;
+		color: red;
+		font-weight: bold;
+		font-style: italic;
+	}
+/*--------------------------------*/
+
+
+/*------Styles for Administrator.html-----*/
+	.options{
+		overflow: hidden;
+	}
+
+	.options > div{
+		width: 33%;
+	}
+
+	.options > #optionsBox{
+		float: left;
+		margin: 80px 5px 5px 5px;
+	}
+	
+	.options > #leftBarFromOptions{
+		background: #333;
+		border-top: 100px solid #FFF;
+		border-bottom: 100px solid #FFF;
+		border-left: 20px solid #FFF;
+		border-right: 20px solid #FFF;
+		margin: 50px 5px 5px 5px;
+		float:left;
+	}
+
+	#createSpaceAdministrator{
+		margin: 10px 5px 5px 0px;
+	}
+
+	.input{
+		font-size: 1.2em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+	}
+
+	.input:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+
+	.administratorSignOut > #signOutButton{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-top: 34px;
+	}
+
+	.administratorSignOut > #signOutButton:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+/*----------------------------------------*/
+
+
+/*------Styles for Staff.html-----*/
+	#createSpaceStaff{
+		margin: 10px 5px 5px 0px;
+	}
+
+	.staffSignOut > #signOutButton{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-top: 140px;
+	}
+
+	.staffSignOut > #signOutButton:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+/*--------------------------------*/
+
+
+/*------Styles for AddNewProducts.html-----*/
+	#productName, #ownerName, #ownerEmail, #ownerPhoneNumber, #productPrice{
+		border: 2px solid #070;
+		border-radius: 3px;
+	}
+
+	.optionsAddNewProducts{
+		overflow: hidden;
+	}
+
+	.optionsAddNewProducts > div{
+		width: 33%;
+	}
+
+	.optionsAddNewProducts > #optionsBox{
+		float: left;
+		margin: 20px 5px 5px 5px;
+	}
+
+	.optionsAddNewProducts > #optionsBox > p > input{
+		font-weight: bold;
+	}
+	
+	.optionsAddNewProducts > #leftBarFromOptions{
+		background: #333;
+		border-top: 50px solid #FFF;
+		border-bottom: 100px solid #FFF;
+		border-left: 20px solid #FFF;
+		border-right: 20px solid #FFF;
+		margin: 50px 5px 5px 5px;
+		float:left;
+	}
+
+	#createSpaceAddNewProducts{
+		margin: 10px 5px 5px 0px;
+	}
+
+	.addNewProductsHome > #homeButton{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-top: 0px;
+	}
+
+	.addNewProductsHome > #homeButton:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+
+	.spanBannerAddNewProducts{
+		font-size: 0.74em;
+		color: red;
+		font-weight: bold;
+		font-style: italic;
+	}
+/*-----------------------------------------*/
+
+
+/*------Styles for SellProducts.html-----*/
+	#sellProductName{
+		border: 2px solid #070;
+		border-radius: 3px;
+	}
+
+	.optionsSellProducts{
+		overflow: hidden;
+	}
+
+	.optionsSellProducts > div{
+		width: 33%;
+	}
+
+	.optionsSellProducts > #optionsBox{
+		float: left;
+		margin: 10px 5px 5px 5px;
+	}
+
+	.optionsSellProducts > #optionsBox > p > input{
+		font-weight: bold;
+	}
+	
+	.optionsSellProducts > #leftBarFromOptions{
+		background: #333;
+		border-top: 50px solid #FFF;
+		border-bottom: 20px solid #FFF;
+		border-left: 20px solid #FFF;
+		border-right: 20px solid #FFF;
+		margin: 50px 5px 5px 5px;
+		float:left;
+	}
+
+	#createSpaceSellProducts{
+		margin: 0px 5px 5px 0px;
+	}
+
+	.sellProductsHome > #backButton{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-top: 10px;
+	}
+
+	.productsListingTableSell > fieldset{
+    	border: 0px dashed #000;
+    	margin: 10px 20px 0px 20px;
+    	padding: 0px 20px 0px 20px;
+	}
+
+	#productsTableSell{
+	    font-family: 'Arial';
+	    margin: 30px auto;
+	    border-collapse: collapse;
+	    border: 1px solid #000;
+	 }
+
+	.sellProductsHome > #homeButton:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+
+	.sellProd{
+		font-size: 1.1em;
+		text-align: center;
+	    background: #444;
+	    color: white;
+	    border: 0;
+	    font-weight: bold;
+	    padding: 5px 25px;
+		border-radius: 7px;
+		margin: 0px;
+	}
+
+	.sellProd:hover{
+		font-size: 1.1em;
+		text-align: center;
+	    background: #0A0;
+	    color: white;
+	    font-weight: bold;
+	    cursor: pointer;
+	}
+
+	#noProdFoundSell{
+		margin-bottom: 202px;
+	}
+/*---------------------------------------*/
+
+
+/*------Styles for OwnersRevenue.html-----*/
+	#ownersName{
+		border: 2px solid #070;
+		border-radius: 3px;
+	}
+
+	.optionsOwnersRevenue{
+		overflow: hidden;
+	}
+
+	.optionsOwnersRevenue > div{
+		width: 33%;
+	}
+
+	.optionsOwnersRevenue > #optionsBox{
+		float: left;
+		margin: 10px 5px 5px 5px;
+	}
+
+	.optionsOwnersRevenue > #optionsBox > p > input{
+		font-weight: bold;
+	}
+	
+	.optionsOwnersRevenue > #leftBarFromOptions{
+		background: #333;
+		border-top: 50px solid #FFF;
+		border-bottom: 30px solid #FFF;
+		border-left: 20px solid #FFF;
+		border-right: 20px solid #FFF;
+		margin: 50px 5px 5px 5px;
+		float:left;
+	}
+
+	#extraSpan{
+		border-bottom: 20px solid #FFF;
+		margin: 238px 5px 5px 0px;
+	}
+
+	#createSpaceOwnersRevenue{
+		margin: 40px 5px 5px 0px;
+	}
+
+	.ownersRevenue > fieldset{
+    	border: 0px dashed #000;
+    	margin: 10px 20px 0px 20px;
+    	padding: 0px 20px 0px 20px;
+	}
+
+	#ownersRevenueTable{
+	    font-family: 'Arial';
+	    margin: 25px auto;
+	    border-collapse: collapse;
+	    border: 1px solid #000;
+	 }
+
+	.ownersRevenueHome > #backButton{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-top: 0px;
+	}
+
+	.ownersRevenueHome > #backButton:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+
+	#errorM{
+		margin-bottom: 209px;
+	}
+
+	.dashes{
+		color: white;
+	}
+/*----------------------------------------*/
+
+
+/*------Styles for EventsRevenue.html-----*/
+	#createSpaceEventsRevenue{
+		margin: 47px 5px 5px 0px;
+	}
+
+	.eventsRevenueHome > #backButton{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-top: 0px;
+	}
+
+	.eventsRevenueHome > #backButton:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+
+	.eventsRevenue > fieldset{
+    	border: 0px dashed #000;
+    	margin: 10px 20px 0px 20px;
+    	padding: 0px 20px 0px 20px;
+	}
+
+	#eventsRevenueTable{
+	    font-family: 'Arial';
+	    margin: 25px auto;
+	    border-collapse: collapse;
+	    border: 1px solid #000;
+	 }
+
+	th, td {
+	    color: #111;
+	    border: 2px solid #CCC;
+	    padding: 12px 35px;
+	    border-collapse: collapse;
+	    font-size: 13px;
+	}
+	th{
+	    background: #000;
+	    color: #fff;
+	    text-transform: uppercase;
+	    font-size: 16px;
+	}
+
+	tr:hover{
+	    background: #EEE;
+	    color: #000;
+	    font-weight: bold;
+	}
+/*----------------------------------------*/
+
+
+/*------Styles for ProductsList.html-----*/
+	#searchProductName{
+		border: 2px solid #070;
+		border-radius: 3px;
+	}
+
+	.optionsProductsList{
+		overflow: hidden;
+	}
+
+	.optionsProductsList > div{
+		width: 33%;
+	}
+
+	.optionsProductsList > #optionsBox{
+		float: left;
+		margin: 15px 5px 5px 5px;
+	}
+
+	.optionsProductsList > #optionsBox > p > input{
+		font-weight: bold;
+	}
+	
+	.optionsProductsList > #leftBarFromOptions{
+		background: #333;
+		border-top: 20px solid #FFF;
+		border-bottom: 20px solid #FFF;
+		border-left: 20px solid #FFF;
+		border-right: 20px solid #FFF;
+		margin: 50px 5px 5px 5px;
+		float:left;
+	}
+
+
+	#createSpaceProductList{
+		margin: 9px 5px 5px 0px;
+	}
+
+	.productListHome > #backButton{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-top: 50px;
+	}
+
+	.productListHome > #backButton:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+
+	.productsListingTable > fieldset{
+    	border: 0px dashed #000;
+    	margin: 10px 20px 0px 20px;
+    	padding: 0px 20px 0px 20px;
+	}
+
+	#productsTable{
+	    font-family: 'Arial';
+	    margin: 25px auto;
+	    border-collapse: collapse;
+	    border: 1px solid #000;
+	 }
+
+	 .productListHome > #backButton{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+
+	#noProdFound{
+		margin-bottom: 202px;
+	}
+/*---------------------------------------*/
+
+
+/*------Styles for About.html-----*/
+	#createSpaceAbout{
+		margin: 100px 5px 5px 0px;
+	}
+
+	#homeButtonAbout{
+		font-size: 1.3em;
+		text-align: center;
+	    background: #000;
+	    color: white;
+	    border: 0;
+	    padding: 8px 20px;
+		border-radius: 5px;
+		margin-left: 5px;
+		margin-top: 70px;
+	}
+
+	#homeButtonAbout:hover{
+		cursor: pointer;
+		background: #333;
+		font-weight: bold;
+	}
+
+	.aboutInformation{
+		font-size: 0.9em;
+		margin: 105px;
+	}
+/*--------------------------------*/
